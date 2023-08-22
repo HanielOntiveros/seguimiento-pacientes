@@ -57,7 +57,7 @@ const Formulario = ({pacientes , setPacientes}) => {
           className="bg-white shadow-md rounded-lg py-10 px-5 mb-10">
           { error && <Error mensaje='Todos los campos son obligatorios'/>}
           <div className="mb-5">
-            <label htmlFor="mascota"  className="block text-grey-700 uppercase font-bold">Nombre mascota</label>
+            <label htmlFor="mascota"  className="block text-gray-700 uppercase font-bold">Nombre mascota</label>
               <input 
                 // required
                 id="mascota"
@@ -69,7 +69,8 @@ const Formulario = ({pacientes , setPacientes}) => {
               />
           </div>
           <div className="mb-5">
-            <label htmlFor="propietario"  className="block text-grey-700 uppercase font-bold">Nombre propietario</label>
+            <label htmlFor="propietario"  className="block text-gra
+            y-700 uppercase font-bold">Nombre propietario</label>
               <input 
                 // required
                 id="propietario"
@@ -81,7 +82,7 @@ const Formulario = ({pacientes , setPacientes}) => {
               />
           </div>
           <div className="mb-5">
-            <label htmlFor="email"  className="block text-grey-700 uppercase font-bold">Email</label>
+            <label htmlFor="email"  className="block text-gray-700 uppercase font-bold">Email</label>
               <input 
                 // required
                 id="email"
@@ -93,7 +94,7 @@ const Formulario = ({pacientes , setPacientes}) => {
                 />
           </div>
           <div className="mb-5">
-            <label htmlFor="alta"  className="block text-grey-700 uppercase font-bold">Alta</label>
+            <label htmlFor="alta"  className="block text-gray-700 uppercase font-bold">Alta</label>
               <input 
                 id="alta"
                 type="date"
@@ -103,7 +104,7 @@ const Formulario = ({pacientes , setPacientes}) => {
                 />
           </div>
           <div className="mb-10">
-            <label htmlFor="sintomas"  className="block text-grey-700 uppercase font-bold">Síntomas</label>
+            <label htmlFor="sintomas"  className="block text-gray-700 uppercase font-bold">Síntomas</label>
               <textarea
                 id="sintomas"
                 placeholder="Describe los síntomas"
